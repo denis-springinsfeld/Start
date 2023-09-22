@@ -1,11 +1,5 @@
-import Badge from './components/Badge';
-function App() {
+export default function App() {
   return (
-    <>
-      <Badge label="sold" />
-      <Badge label="out" />
-    </>
+    <h1 className="bg-red-500 text-3xl font-bold underline">Hello world!</h1>
   );
 }
-
-export default App;
